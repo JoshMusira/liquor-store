@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <h1>Liquor Store</h1>
+      <h1 className='text-3xl font-bold underline'>Liquor Store</h1>
     </>
   )
 }
