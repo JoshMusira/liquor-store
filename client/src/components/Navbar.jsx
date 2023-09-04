@@ -6,13 +6,13 @@ const Navbar = () => {
         <div className='max-w-[1640px] mx-auto flex justify-between items-center p-4'>
             {/* Left Side  */}
             <div className='flex items-center'>
-                <div className='cursor-pointer'>
+                <div className='cursor-pointer text-[#de6e12]'>
                     <AiOutlineMenu size={30} />
                 </div>
-                <h1 className='text-2xl sm:text-3xl lg:text-4xl px-2'>Liquor <span className='font-bold'>Store</span> </h1>
-                <div className='hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]'>
-                    <p className='bg-black text-white rounded-full p-2'>Delivery</p>
-                    <p className='p-2'>Pickup</p>
+                <h1 className='text-2xl sm:text-3xl lg:text-4xl px-2'>Liquor <span className='font-bold text-[#de6e12] '>Store</span> </h1>
+                <div className='hidden lg:flex items-center bg-[#683308] rounded-full p-1 text-[14px]'>
+                    <p className='bg-[#fbfbfb] text-[17px] text-black rounded-full p-2'>Delivery</p>
+                    <p className='p-2 text-white'>Pickup</p>
                 </div>
 
             </div>
@@ -26,7 +26,7 @@ const Navbar = () => {
             </div>
 
             {/* Cart button */}
-            <button className='bg-black text-white hidden md:flex items-center py-2 rounded-full'>
+            <button className='bg-[#de6e12] text-white hidden md:flex items-center py-2 rounded-full'>
                 <BsFillCartFill size={20} className='mr-2' /> Cart
             </button>
 
