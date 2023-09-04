@@ -19,18 +19,25 @@ const Navbar = () => {
 
             {/* Search Input */}
             <div className='bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-[400px] lg:w-[500px]'>
-                <AiOutlineSearch size={25} />
+                <AiOutlineSearch className='text-gray/400' size={25} />
                 <input type="text"
                     className='bg-transparent p-2 w-full focus:outline-none'
                     placeholder='Search drinks...' />
             </div>
 
-            {/* Cart button */}
-            <button className='bg-[#de6e12] text-white hidden md:flex items-center py-2 rounded-full'>
-                <BsFillCartFill size={20} className='mr-2' /> Cart
-            </button>
+            <div className='flex gap-4'>
+                {/* Cart button */}
+                <button className='bg-[#de6e12] text-white hidden md:flex items-center py-2 rounded-full'>
+                    <BsFillCartFill size={20} className='mr-2' /> Cart
+                </button>
 
+                {/* User */}
 
+                <div className='w-[60px] h-[60px] rounded-full border border-gray'>
+                    <img className='w-[100%] rounded-full h-[100%] object-cover' src="https://cdn.pixabay.com/photo/2016/04/01/10/11/avatar-1299805_1280.png" alt="" />
+                </div>
+
+            </div>
         </div>
     )
 }
