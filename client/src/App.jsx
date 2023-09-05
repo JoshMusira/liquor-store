@@ -1,11 +1,12 @@
 import './App.css'
-import { Navbar } from './exports/exports'
+import { Navbar, Hero } from './exports/exports'
 
 function App() {
 
   return (
     <>
       <Navbar />
+      <Hero />
     </>
   )
 }
