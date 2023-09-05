@@ -1,5 +1,5 @@
 import './App.css'
-import { Navbar, Hero } from './exports/exports'
+import { Navbar, Hero, HeadLineCards } from './exports/exports'
 
 function App() {
 
@@ -7,6 +7,7 @@ function App() {
     <>
       <Navbar />
       <Hero />
+      <HeadLineCards />
     </>
   )
 }
