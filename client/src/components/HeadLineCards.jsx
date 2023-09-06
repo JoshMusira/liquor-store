@@ -11,6 +11,8 @@ const HeadLineCards = () => {
             <HeadLineCard />
             <HeadLineCard />
             <HeadLineCard />
+            <HeadLineCard />
+            <HeadLineCard />
 
         </div>
     )
