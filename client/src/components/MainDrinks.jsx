@@ -1,7 +1,8 @@
+import { MainDrinkCards } from "../exports/exports"
 
 const MainDrinks = () => {
     return (
-        <div className=" max-w-[1640px] m-auto px4 py-12">
+        <div className=" max-w-[1640px] mx-auto px4 py-12">
             <h1 className="text-orange-600 font-bold text-4xl text-center">Top Rated Menu Items</h1>
             <div className=" flex flex-col lg:flex-row justify-between">
                 <div>
@@ -24,19 +25,11 @@ const MainDrinks = () => {
                     </div>
                 </div>
             </div>
-            <div className=" w-[200px] sm:w-[450px] lg:w-[500px] grid grid-cols-2 lg:grid-cols4 gap-6 pt-4">
-                <div className="border shadow-lg cursor-pointer rounded-lg hover:scale-105 duration-300">
-                    <img className="w-full h-[345px] object-cover rounded-t-lg" src="https://images.unsplash.com/photo-1569529465841-dfecdab7503b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWxjb2hvbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" />
-                    <div className=" flex text-2xl px-2 py-3 justify-between">
-                        <p className="font-bold ">Black Label</p>
-                        <p >
-                            <span className=" bg-orange-500 text-white p-1 rounded-[10px]">$$$
-                            </span>
-                        </p>
-                    </div>
-                </div>
+            {/* <div className="  grid grid-cols-2 lg:grid-cols4 gap-6 pt-4 "> */}
+            <MainDrinkCards />
 
-            </div>
+
+            {/* </div> */}
         </div >
     )
 }
